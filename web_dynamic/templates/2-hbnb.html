@@ -9,13 +9,13 @@
     <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css">
     <link rel="icon" href="../static/images/icon.png" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="../static/scripts/2-hbnb.js?{{ cache_id }}"></script>
+    <script defer src="../static/scripts/2-hbnb.js?{{ cache_id }}"></script>
     <title>HBnB</title>
 </head>
 <body>
     <header>
+        <div id="api_status" class="available"></div>
         <div class="logo"></div>
-        <div id="api_status"></div>
     </header>
     <div class="container">
         <section class="filters">
